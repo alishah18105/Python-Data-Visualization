@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 products = ["Mobile", "Airbuds", "Laptops", "Smart Watches"]
 sales = [1000, 400, 100, 650]
 
-plt.bar(products,sales, color = "green", label =" Sales of Products")
 plt.xlabel("Products")
 plt.ylabel("Sales")
 plt.title("Sales of Products")
